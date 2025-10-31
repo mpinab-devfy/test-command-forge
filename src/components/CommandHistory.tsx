@@ -1,4 +1,4 @@
-import { Clock, Copy, RotateCcw } from "lucide-react";
+import { Clock, Save, RotateCcw } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { toast } from "sonner";
@@ -68,9 +68,9 @@ export function CommandHistory({ items, onRerun, showRerun = false }: CommandHis
                     variant="ghost"
                     size="icon"
                     onClick={() => copyToClipboard(item.command)}
-                    title="Copiar comando"
+                    title="Salvar fluxo"
                   >
-                    <Copy className="w-4 h-4" />
+                    <Save className="w-4 h-4" />
                   </Button>
                   {showRerun && onRerun && (
                     <Button
