@@ -57,6 +57,16 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        command: {
+          bg: "hsl(var(--command-bg))",
+          border: "hsl(var(--command-border))",
+        },
+      },
+      fontFamily: {
+        mono: ["JetBrains Mono", "Consolas", "Monaco", "monospace"],
+      },
+      transitionTimingFunction: {
+        smooth: "var(--transition-smooth)",
       },
       borderRadius: {
         lg: "var(--radius)",
