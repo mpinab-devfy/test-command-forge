@@ -135,7 +135,7 @@ export default function ProjectDetail() {
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
                   <Bookmark className="w-5 h-5" />
-                  Comandos Salvos
+                  Fluxos salvos
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-3">
